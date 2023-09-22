@@ -1,0 +1,14 @@
+.textMenu{
+    margin-left: 15%;
+    color: #FFF;
+    font-size: 17.324px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117%; /* 20.269px */
+    letter-spacing: 1.732px; 
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+}
