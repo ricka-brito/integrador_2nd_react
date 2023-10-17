@@ -1,0 +1,69 @@
+.second-section{
+    margin-top: 8%;
+    background-color: unset;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.phone{
+    background-color: unset;
+}
+
+.text-app{
+    background-color: unset;
+    font-weight: 600;
+    font-size: 20rem;
+    background: linear-gradient(0deg, rgba(255,255,255,0.37) 65%, rgba(255,255,255,0.7) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 129%;
+}
+
+#the{
+    margin-right: 3%;
+}
+
+#app{
+    margin-left: 2%;
+}
+
+.noAniThe{
+    transform: translateX(20%);
+    transition: all 1s;
+}
+
+.aniThe{
+    transition: all 1s;
+    transform: translateX(0);
+}
+
+.noAniApp{
+    transform: translateX(-20%);
+    transition: all 1s;
+}
+
+.aniApp{
+    transition: all 1s;
+    transform: translateX(0);
+}
+
+.noAniCell{
+    transform: scale(0, 0);
+}
+
+.aniCell{
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateY(60%);
+    }
+  
+    to {
+        transform: translateY(0%);
+    }
+  }

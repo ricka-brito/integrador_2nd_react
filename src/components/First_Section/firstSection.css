@@ -1,0 +1,50 @@
+.text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 5.5rem;
+    background:none;
+    background-color: unset;
+    text-align: justify;
+    width: 40%;
+    letter-spacing: 1vw;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+    flex-direction: column;
+}
+
+.degrade{
+    background: linear-gradient(77deg, #D845DB 5.18%, #F11 71.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: 1.16vw;
+}
+
+.qrcode{
+    width: 17%;
+}
+
+.app-down{
+    width: 40%;
+    display: flex;
+    background-color: unset;
+    display: flex;
+    margin-top: 4%;
+}
+
+.info-down{
+    color: #fff;
+    background-color: unset;
+    font-size: 1.5rem;
+    width: 25%;
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 3%;
+}

@@ -1,0 +1,43 @@
+.frame{
+    background-color: rgba(177, 132, 132, 0.14);
+    width: 379.106px;
+    height: 154.567px;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 4.17747px 4.17747px 0px rgba(0, 0, 0, 0.25) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.terms{
+    width: 80%;
+    text-align: justify;
+    background-color: unset;
+    color: white;
+    font-size: 1rem;
+}
+
+.button{
+    position: relative;
+    background-color: #fff;
+    width: 80%;
+    margin-top: 4%;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background 400ms;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.link-termos{
+    background-color: unset;
+    color: #7D8AFF;
+}

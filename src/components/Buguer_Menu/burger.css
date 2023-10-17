@@ -9,6 +9,8 @@
 }
 
 .menu{
+    margin-left: 10%;
     align-items: center;
     display: flex;
+    width: fit-content;
 }
