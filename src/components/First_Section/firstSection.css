@@ -5,8 +5,15 @@
     background:none;
     background-color: unset;
     text-align: justify;
-    width: 40%;
+    width: 50vw;
     letter-spacing: 1vw;
+    margin-top: 2%;
+}
+
+@media (min-width: 1600px){
+    .text{
+        width: 40vw;
+    }
 }
 
 .main{
@@ -29,6 +36,8 @@
 
 .qrcode{
     width: 17%;
+    object-fit: contain;
+    background: unset;
 }
 
 .app-down{
@@ -37,13 +46,14 @@
     background-color: unset;
     display: flex;
     margin-top: 4%;
+    justify-content: flex-start;
 }
 
 .info-down{
     color: #fff;
     background-color: unset;
     font-size: 1.5rem;
-    width: 25%;
+    width: 25vw;
     text-align: justify;
     margin-top: 1%;
     margin-left: 3%;

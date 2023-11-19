@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import SmartPhone from '../../assets/images/smartphone.png'
 import './secondSection.css';
+import stars from '../../assets/images/stars.png';
 
 
 export default function SecondSection() {
@@ -58,12 +59,22 @@ export default function SecondSection() {
             <div className="desc">
                 <h1 className="desc_second_div">
                     <span className={`desc_second ${part1}`}>Download Swift.</span><br/>
-                    <span className={`desc_second ${part2}`}>Your purchases, anywhere, anytime.</span>
+                    <span className={`desc_second ${part2}`}>Your purchases, anywhere, anytime.</span><br/>
                     <span className={`desc_second ${part3}`}> Easily transfer money, for free. </span><br/>  
                     <span className={`desc_second ${part4}`}>Bank from anywhere in the world.</span>
                 </h1>
             </div>
+            <div className='rating'>
+                <h1 className='rating-number'>
+                    4.7
+                </h1>
+                <div className='stars-desc'>
+                    <img className='stars' src={stars}/>
+                    <p>
+                        Score on app store
+                    </p>
+                </div>
+            </div>
         </>
-   
     )
 }

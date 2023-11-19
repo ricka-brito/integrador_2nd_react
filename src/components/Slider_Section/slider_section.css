@@ -1,0 +1,34 @@
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.ad{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: unset;
+}
+
+.ad:hover .ad-slides{
+    animation-play-state: paused;
+}
+
+.ad-slides {
+    display: flex;
+    flex-direction: row;
+    animation: 40s slide infinite linear;
+    background-color: unset;
+}
+
+
+.ad-slides > *{
+    margin: 0 15px;
+}

@@ -4,13 +4,16 @@ import Terms from "../../components/Terms_PopUp"
 import SecondSection from "../../components/Second_Section"
 import React from 'react'
 import './body.css'
+import Slider_Section from "../../components/Slider_Section"
 
 function Body() {
   return (
     <div className='body'>
       <FirstSection/>
       <SecondSection/>
+      <Slider_Section/>
       <Terms/>
+
     </div>
     
   )
