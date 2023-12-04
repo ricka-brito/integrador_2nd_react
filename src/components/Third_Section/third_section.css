@@ -11,6 +11,8 @@
 .head-elemt{
     color: #fff;
     font-size: 6rem;
+    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .header-slides{

@@ -15,7 +15,7 @@ function Body() {
       <Slider_Section/>
       <ThirdSection/>
       <Terms/>
-
+      
     </div>
     
   )
