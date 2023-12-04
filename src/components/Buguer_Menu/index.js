@@ -6,7 +6,7 @@ import './burger.css';
 function BurguerMenu() {
   return (
     <a href="" className='menu'>
-        <FontAwesomeIcon color='#fff' size='2x' icon={faBars} />
+        <FontAwesomeIcon color='#fff' size='2x' icon={faBars} className="icon-burger" />
         <h1 className='textMenu'>MENU</h1>
     </a>
   )

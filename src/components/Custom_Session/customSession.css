@@ -1,0 +1,22 @@
+.all-content{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.desc-info{
+    color: #7D7D7D;
+    font-weight: 500;
+    width: 45%;
+    font-size: 2.5rem;
+}
+
+
+
+.desc-info span{
+    color: #fff;
+    font-weight: 600;
+}

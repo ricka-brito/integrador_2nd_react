@@ -31,4 +31,21 @@
 
 .ad-slides > *{
     margin: 0 15px;
+    transition: all ease-in-out 0.17s;
+}
+
+.ad-slides > *:hover{
+    transform: scale(0.95);
+    transition: all ease-in-out 0.17s;
+}
+
+.second-slider{
+    margin-bottom: 5%;
+}
+
+.line{
+    background-color: rgb(100, 100, 100);
+    width: 85%;
+    height: 1px;
+    margin: 5% 7.5%;
 }

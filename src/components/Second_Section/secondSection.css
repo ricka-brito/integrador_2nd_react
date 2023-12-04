@@ -33,21 +33,21 @@
 
 .noAniThe{
     transform: translateX(20%);
-    transition: all 1s;
+    transition: all 1s cubic-bezier(.27,.87,.38,1.07);
 }
 
 .aniThe{
-    transition: all 1s;
+    transition: all 1s cubic-bezier(.27,.87,.38,1.07);
     transform: translateX(0);
 }
 
 .noAniApp{
     transform: translateX(-20%);
-    transition: all 1s;
+    transition: all 1s cubic-bezier(.27,.87,.38,1.07);
 }
 
 .aniApp{
-    transition: all 1s;
+    transition: all 1s cubic-bezier(.27,.87,.38,1.07);
     transform: translateX(0);
 }
 
@@ -58,6 +58,7 @@
 .aniCell{
     animation-name: slidein;
     animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.27,.87,.38,1.07);
 }
 
 @keyframes slidein {

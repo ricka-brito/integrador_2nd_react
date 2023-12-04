@@ -1,0 +1,66 @@
+.img-cards{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 140vh;
+    object-fit: cover;
+    z-index: -1;
+    left: -1%;
+}
+
+.div-cards{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+}
+
+.div-cards-infos{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    background-color: unset;
+    width: 100%;
+    gap: 13%;
+}
+
+.cards-texts{
+    color: #fff;
+    background-color: unset;
+    font-size: 3rem;
+    width: 37%;
+    font-weight: 400;
+    letter-spacing: 11.667px;
+}
+
+.div-cards-infos-text{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: unset;
+    align-items: center;
+}
+
+.div-cards-infos-text .degrade{
+    font-size: 5.5rem;
+    background: linear-gradient(268deg, #D845DB 49.46%, #F11 96.72%);
+    background-clip: text;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 80%;
+}
+
+.cashback{
+    font-size: 3.5rem;
+    background: linear-gradient(268deg, #D845DB 49.46%, #F11 96.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5.437px;
+    line-height: 5px;
+    font-weight: 600;
+}

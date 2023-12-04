@@ -1,0 +1,36 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.head-elemt{
+    color: #fff;
+    font-size: 6rem;
+}
+
+.header-slides{
+    display: flex;
+    text-wrap: nowrap;
+    animation: 50s slide infinite linear;
+}
+
+.section-header{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 10%;
+    /* margin-left: -10%; */
+}
+
+.cards-infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+

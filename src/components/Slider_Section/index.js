@@ -41,7 +41,7 @@ function Slider_Section() {
         <SliderItem background={'#2F2525'} icon={send} text={(<>Refer a friend. <span>Give 20$, get 20$</span></>)}/>
       </div>
     </div>
-     <div className='ad'>
+     <div className='ad second-slider'>
      <div className='ad-slides'>    
        <SliderItem background={'unset'} img={'https://s3-alpha-sig.figma.com/img/b5da/a5d7/757c7631d39c71d1ef7bb0945e2b2ec2?Expires=1701043200&Signature=YrqByser5By4UYEb-9b0RwBQjYHxa-LNtmCxZjDTBl3~546bzhCij8iZyghwfbjJlUZp~wXlAlXiwW6jS08LotwvZCQTVSiIB77u8eyKdGD2OFtBBSR1lC7IJbKqXJrs5q74G9zO23ndvvf-BP~6e7n5OrPoCCXyx5sRSEeNUyzK1bHFWkX3kx5-q9EigXgj0Ha80t974mbl9~YziZg9mIoRZN-B2TMS8WvRFTBJrmewRRVZYoOOxbrLjkEfCn1NE83CcGD~na03jsMkqUhdl5rydQjAdf26FT30AIpY~Du6N8PF3jgPdShUfDB6AaU9CLCRvb-PQeNdJLOAu6y2hA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'} text={(<>No hidden fees, <span>always for free</span></>)}/>
        <SliderItem background={'rgba(216, 69, 219, 0.54)'} icon_size={'big'} icon={card_color} text={(<>Your virtual <span>cards are ready!</span></>)}/>
@@ -71,6 +71,7 @@ function Slider_Section() {
        <SliderItem background={'unset'} img={'https://i.ibb.co/NV33t7n/woman-sitten.png'} text={(<>Without, <span>leaving the place</span></>)}/>
      </div>
    </div>
+   <div className="line"/>
    </>  
    )
 }
