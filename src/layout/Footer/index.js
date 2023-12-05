@@ -6,9 +6,18 @@ import InstagramIcon from '../../assets/images/insta.png';
 import TikTokIcon from '../../assets/images/tik.png';
 import TwitterIcon from '../../assets/images/twitter.png';
 import YoutubeIcon from '../../assets/images/yout.png';
+import arrow from '../../assets/images/arrow-up-solid.svg';
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+};
 
 export default function Footer() {
   return (
+    <>
+    <div className='scroll'><div className='scrollup' onClick={() => topFunction()}><a className='button-scrollup' onClick={() => topFunction()}><img className='scrollup-img' src={arrow}/></a></div></div>
     <div className='footer'>
         <div className='footer-up'>
           <div className='social-footer'>
@@ -31,5 +40,6 @@ Chery St, S/Nº | West Reading | PA | CEP: 19611</p>
           <p>© 2023 BANCO SWIFT S.A.</p>
         </div>
     </div>
+    </>
   )
 }

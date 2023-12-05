@@ -78,3 +78,37 @@
     width: fit-content;
     height: fit-content;
 }
+
+.scrollup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button-scrollup{
+    height: 100%;
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll{
+    background-color: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin-top: -4%;
+}
+
+.scrollup-img{
+    background-color: unset;
+}
