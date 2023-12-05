@@ -15,8 +15,10 @@ function ThirdSection() {
                 <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
                 <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
                 <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
+                <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
             </div>
             <div className="header-slides">
+                <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
                 <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
                 <h1 className="head-elemt">&nbsp;Why Swift? • </h1>
                 <h1 className="head-elemt">&nbsp;Why Swift? • </h1>

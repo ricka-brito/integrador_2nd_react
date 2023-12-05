@@ -1,9 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import BurguerMenu from '../../components/Buguer_Menu'
 import './header.css'
+import SideBar from "../../components/SideBar"
 
 function Header() {
   const [header, setHeader] = useState("header")
+  const [sideBarState, setSideBarState] = useState();
 
   const listenScrollEvent = (event) => {
     if (window.scrollY < 63) {
@@ -22,11 +24,15 @@ function Header() {
 
 
   return (
+    <>
     <div className='header' style={{borderBottom: `${header}px solid rgba(170, 170, 170, 0.27)`}}>
         <BurguerMenu/>
         <a className='titulo' href='#'><p style={{backgroundColor: "unset"}}>SWIFT</p></a>
-        <a className="abrir-conta"><p className="text-abrir">ABRIR MINHA CONTA</p></a>
+        <a className="abrir-conta" onClick={() => setSideBarState(true)}><p className="text-abrir">OPEN MY ACCOUNT</p></a>
     </div>
+    <SideBar sidebaractive={sideBarState} setBar={setSideBarState}>
+    </SideBar>
+    </>
   )
 }
 
