@@ -327,6 +327,7 @@ export default function Signup() {
    
 
          }}/>
+          <ToastContainer theme="dark" />
           </>
 
           
