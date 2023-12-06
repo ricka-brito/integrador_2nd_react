@@ -112,3 +112,15 @@
     animation: show 1s;
     margin-top: 3%;
 }
+
+.qrcode-sucessuful{
+    margin-top: 3%;
+    width: 50%;
+}
+
+.close-sign{
+    color: #fff;
+    position: absolute;
+    left: 3%;
+    top:5%;
+}
