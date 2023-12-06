@@ -2,10 +2,12 @@ import React, {useEffect, useState} from 'react'
 import BurguerMenu from '../../components/Buguer_Menu'
 import './header.css'
 import SideBar from "../../components/SideBar"
+import { GlobalContext } from "../../util/Context";
 
 function Header() {
   const [header, setHeader] = useState("header")
   const [sideBarState, setSideBarState] = useState();
+
 
   const listenScrollEvent = (event) => {
     if (window.scrollY < 63) {

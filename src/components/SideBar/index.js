@@ -4,10 +4,16 @@ import { IoMdClose } from "react-icons/io";
 import Input from "../Input";
 import QRcode from '../../assets/images/qrcode.png'
 import Button from "../../components/Button";
+import { useNavigate } from 'react-router-dom';
+import { GlobalContext } from '../../util/Context';
+import { useContext } from 'react';
 
 export default function SideBar({sidebaractive, setBar}) {
     const [cpf, setCpf] = useState()
-
+    const navigate = useNavigate();
+    const [sideBarState, setSideBarState] = useState();
+    const theContext = useContext(GlobalContext);
+    const { setState } = theContext;
 
     function formataCPF(cpf){
         //retira os caracteres indesejados...
@@ -25,9 +31,13 @@ export default function SideBar({sidebaractive, setBar}) {
                         <IoMdClose className="close" size={20}/>
                     </div>
                     <h1 className="title-sidebar">...Ready for it?</h1>
-                    <h2 style={{fontWeight: 500, marginBottom: "3%"}}>Type your CPF</h2>
+                    <h3 style={{fontWeight: 400, marginBottom: "3%", color: "#ddd"}}>Type your CPF</h3>
                     <Input placeholder="CPF" id="cpf" formater={formataCPF} value={cpf} maxlength={"14"}/>
-                    <Button/>
+                    <Button buttonText="continue"
+                     onClick={() => {
+                        setState({cpf: cpf})
+                        navigate('/signup')
+                        }}/>
                     
                     <div className="separator">
                         <div className="linea"/>

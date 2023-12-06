@@ -16,6 +16,26 @@
     /* filter: blur(3px); */
 }
 
+@keyframes show {
+    from{
+        width: 0;
+        opacity: 0;
+    }
+    to{
+        width: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes showTitle {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 .formdata-signup{
     display: flex;
     align-items: center;
@@ -26,7 +46,7 @@
 }
 
 .logo{
-    margin-top: 13%;
+    margin-top: 10%;
     object-fit: contain;
     width: 30%;
     background-color: unset;
@@ -34,8 +54,61 @@
 
 .input-nome{
     margin-top: 8%;
+    animation: show 1s;
 }
 
 .input-email{
     margin-top: 5%;
+    animation: show 1s;
+}
+
+.title-sign{
+    color: #aaa;
+    margin-top: 4%;
+    font-weight: 400;
+    animation: showTitle 1s;
+}
+
+.letrinhas{
+    margin-top: 1%;
+    background-color: unset;
+    color: #444;
+    width: 50%;
+    font-size: .7rem;
+    font-weight: 300;
+    animation: showTitle 1s;
+
+}
+
+.input-salario{
+    margin-top: 1%;
+    animation: show 1s;
+
+}
+
+.botao{
+    animation: showTitle 1s;
+}
+
+.input-files{
+    animation: showTitle 1s;
+}
+
+.input-password{
+    animation: show 1s;
+    margin-top: 5%;
+}
+
+.input-disabled{
+    animation: show 1s;
+    margin-top: 3%;
+}
+
+.input-disabled input{
+    color: #666;
+}
+
+.input-cep{
+    animation: show 1s;
+    margin-top: 3%;
 }
